@@ -1,3 +1,6 @@
+$font-color: white;
+
+
 .intropic{
     width: 100%;
     height: auto;
@@ -19,15 +22,34 @@
 
 .georgiaIntro{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: font-color;
 }
 
 .trebuchetIntro{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    color: font-color;
 }
 
 p{
     line-height: 40px;
     margin-bottom: 40px;
+}
+
+#box-search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+
+@media (min-width: 1000px){
+    body{
+        background: blue;
+    }
+}
+
+@media (max-width: 999px){
+    body{
+        background-color: red;
+    }
 }
