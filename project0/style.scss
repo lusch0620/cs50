@@ -22,12 +22,12 @@ $font-color: white;
 
 .georgiaIntro{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: font-color;
+    color: $font-color;
 }
 
 .trebuchetIntro{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: font-color;
+    color: $font-color;
 }
 
 p{
@@ -44,7 +44,7 @@ p{
 
 @media (min-width: 1000px){
     body{
-        background: blue;
+        background: turquoise;
     }
 }
 
